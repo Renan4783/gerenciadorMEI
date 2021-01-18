@@ -2,13 +2,13 @@
   "expo": {
     "name": "gerenciadorMEI",
     "slug": "gerenciadorMEI",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/calculator-icon48.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/mysplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#BEBEBE"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/calculator-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4904377971595846~6634305661"
+      },
+      "package": "br.dev.renan.calculadoracltmei",
+      "versionCode": 57
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/calculator-icon48.png"
     }
   }
 }
